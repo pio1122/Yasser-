@@ -1,0 +1,294 @@
+0000.000 (0) Opened log file at time: Thu, 19 Dec 2024 00:58:19 +0000 on http://www.easysurg.liveblog365.com
+0000.002 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.11 WP: 6.7.1 PHP: 8.2.25 (apache2handler, Linux webserver.cluster.com 6.7.7-362.18.1.el9_5.x86_64 #1 SMP PREEMPT_DYNAMIC Thu Dec 19 0:58:19 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux) MySQL: 10.6.19-MariaDB (max packet size=8388608) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 60 memory_limit: 512M (used: 45M | 46.5M) multisite: N openssl: OpenSSL 1.1.1w  11 Sep 2023 mcrypt: N LANG: C ZipArchive::addFile: Y
+0000.003 (0) Free space on disk containing Updraft's temporary directory: 3439933.9 MB
+0000.005 (0) Tasks: Backup files: 1 (schedule: manual) Backup DB: 1 (schedule: manual)
+0000.008 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.011 (0) Set semaphore last lock (fd) time to 2024-12-19 00:58:19
+0000.011 (0) Semaphore lock (fd) complete
+0000.014 (0) Backup run: resumption=0, nonce=9f49740dc102, file_nonce=9f49740dc102 begun at=1734569899 (0s ago), job type=backup
+0000.016 (0) Scheduling a resumption (1) after 300 seconds (1734570199) in case this run gets aborted
+0000.025 (0) PHP event: code E_WARNING: file_exists(): open_basedir restriction in effect. File(/proc/user_beancounters) is not within the allowed path(s): (/php_sessions:/tmp:..:/var/www/errors:/home/vol14_4/ezyro.com/ezyro_37904914/htdocs) (line 190, wp-content/plugins/updraftplus/backup.php)
+0000.026 (0) Checking if we have a zip executable available
+0000.027 (0) Creation of backups of directories: beginning
+0000.030 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.033 (0) PHP event: Could not ask cPanel about disk space (open_basedir) - this is not an error (line 418, wp-content/plugins/updraftplus/class-updraftplus.php)
+0001.457 (0) Total entities for the zip file: 419 directories, 2128 files (0 skipped as non-modified), 34 MB
+0001.568 (0) Zip: backup_2024-12-19-0058_easysurg_9f49740dc102-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0001.680 (0) Zip: backup_2024-12-19-0058_easysurg_9f49740dc102-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0001.807 (0) Zip: backup_2024-12-19-0058_easysurg_9f49740dc102-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0001.898 (0) Zip: backup_2024-12-19-0058_easysurg_9f49740dc102-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0001.977 (0) Zip: backup_2024-12-19-0058_easysurg_9f49740dc102-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0002.044 (0) Zip: backup_2024-12-19-0058_easysurg_9f49740dc102-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0002.105 (0) Zip: backup_2024-12-19-0058_easysurg_9f49740dc102-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0002.185 (0) Zip: backup_2024-12-19-0058_easysurg_9f49740dc102-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0002.199 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (8.6 MB, 817 (817) files added so far); re-opening (prior size: 0 KB)
+0002.640 (0) Zip: backup_2024-12-19-0058_easysurg_9f49740dc102-plugins.zip.tmp: 900 files added (on-disk size: 2760.2 KB)
+0002.696 (0) Zip: backup_2024-12-19-0058_easysurg_9f49740dc102-plugins.zip.tmp: 1000 files added (on-disk size: 2760.2 KB)
+0002.756 (0) Zip: backup_2024-12-19-0058_easysurg_9f49740dc102-plugins.zip.tmp: 1100 files added (on-disk size: 2760.2 KB)
+0002.815 (0) Zip: backup_2024-12-19-0058_easysurg_9f49740dc102-plugins.zip.tmp: 1200 files added (on-disk size: 2760.2 KB)
+0002.868 (0) Zip: backup_2024-12-19-0058_easysurg_9f49740dc102-plugins.zip.tmp: 1300 files added (on-disk size: 2760.2 KB)
+0002.933 (0) Zip: backup_2024-12-19-0058_easysurg_9f49740dc102-plugins.zip.tmp: 1400 files added (on-disk size: 2760.2 KB)
+0003.020 (0) Zip: backup_2024-12-19-0058_easysurg_9f49740dc102-plugins.zip.tmp: 1500 files added (on-disk size: 2760.2 KB)
+0003.113 (0) Zip: backup_2024-12-19-0058_easysurg_9f49740dc102-plugins.zip.tmp: 1600 files added (on-disk size: 2760.2 KB)
+0003.194 (0) Zip: backup_2024-12-19-0058_easysurg_9f49740dc102-plugins.zip.tmp: 1700 files added (on-disk size: 2760.2 KB)
+0003.265 (0) Zip: backup_2024-12-19-0058_easysurg_9f49740dc102-plugins.zip.tmp: 1800 files added (on-disk size: 2760.2 KB)
+0003.279 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (22.9 MB, 2128 files batched, 1001 (1818) added so far); re-opening (prior size: 2760.2 KB)
+0005.558 (0) Zip: backup_2024-12-19-0058_easysurg_9f49740dc102-plugins.zip.tmp: 1900 files added (on-disk size: 9508.5 KB)
+0005.660 (0) Zip: backup_2024-12-19-0058_easysurg_9f49740dc102-plugins.zip.tmp: 2000 files added (on-disk size: 9508.5 KB)
+0005.732 (0) Zip: backup_2024-12-19-0058_easysurg_9f49740dc102-plugins.zip.tmp: 2100 files added (on-disk size: 9508.5 KB)
+0006.026 (0) Creating zip file manifest (backup_2024-12-19-0058_easysurg_9f49740dc102-plugins.zip.list-temp.tmp)
+0006.031 (0) Successfully created zip file manifest (size: 186321)
+0006.767 (0) Created plugins zip (0) - 10301.3 KB in 6.7 s (1530.1 KB/s) (sha1: 71180ceb71fe2d0351886f931f1986b059f0c6aa, sha256: 76ed90135840f9119152e49c1464cc56b1b2ee7cba63d553f366810912972025)
+0006.771 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0006.772 (0) No remote despatch: user chose no remote backup service
+0006.773 (0) Recording as successfully uploaded: backup_2024-12-19-0058_easysurg_9f49740dc102-plugins.zip
+0006.774 (0) Deleting zip manifest (backup_2024-12-19-0058_easysurg_9f49740dc102-plugins.zip.list.tmp)
+0006.775 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0006.777 (0) Number of backup sets in history: 1; groups (db): 1
+0006.777 (0) Examining (for databases) backup set with group_id=0, nonce=d1a6f5c48b34, datestamp=1734569646 (Dec 19 2024 00:54:06)
+0006.778 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0006.778 (0) Number of backup sets in history: 1; groups (files): 1
+0006.779 (0) Examining (for files) backup set with nonce=d1a6f5c48b34, datestamp=1734569646 (Dec 19 2024 00:54:06)
+0006.779 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0006.779 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0006.783 (0) Beginning creation of dump of themes (split every: 400 MB)
+0006.786 (0) PHP event: Could not ask cPanel about disk space (open_basedir) - this is not an error (line 418, wp-content/plugins/updraftplus/class-updraftplus.php)
+0006.937 (0) Total entities for the zip file: 61 directories, 522 files (0 skipped as non-modified), 19.9 MB
+0006.989 (0) Zip: backup_2024-12-19-0058_easysurg_9f49740dc102-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0007.043 (0) Zip: backup_2024-12-19-0058_easysurg_9f49740dc102-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0007.097 (0) Zip: backup_2024-12-19-0058_easysurg_9f49740dc102-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0007.152 (0) Zip: backup_2024-12-19-0058_easysurg_9f49740dc102-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0007.203 (0) Zip: backup_2024-12-19-0058_easysurg_9f49740dc102-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0009.774 (0) Creating zip file manifest (backup_2024-12-19-0058_easysurg_9f49740dc102-themes.zip.list-temp.tmp)
+0009.776 (0) Successfully created zip file manifest (size: 37627)
+0009.960 (0) Created themes zip (0) - 18779 KB in 3.2 s (5919.7 KB/s) (sha1: a42e89550c36ee24e804644f5af611cd67f6c5d6, sha256: fcc9a92a59ad2a151bafad787566efbcd121709d9088ead77e2a6935fbfa1169)
+0009.963 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0009.964 (0) No remote despatch: user chose no remote backup service
+0009.965 (0) Recording as successfully uploaded: backup_2024-12-19-0058_easysurg_9f49740dc102-themes.zip
+0009.966 (0) Deleting zip manifest (backup_2024-12-19-0058_easysurg_9f49740dc102-themes.zip.list.tmp)
+0009.968 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0009.970 (0) Number of backup sets in history: 1; groups (db): 1
+0009.971 (0) Examining (for databases) backup set with group_id=0, nonce=d1a6f5c48b34, datestamp=1734569646 (Dec 19 2024 00:54:06)
+0009.971 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0009.971 (0) Number of backup sets in history: 1; groups (files): 1
+0009.972 (0) Examining (for files) backup set with nonce=d1a6f5c48b34, datestamp=1734569646 (Dec 19 2024 00:54:06)
+0009.972 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0009.973 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0009.978 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0009.978 (0) Looking for candidates to backup in: /home/vol14_4/ezyro.com/ezyro_37904914/htdocs/wp-content/uploads
+0009.979 (0) finding files: 2024: adding to list (1)
+0009.980 (0) finding files: rank-math: adding to list (2)
+0009.980 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0009.983 (0) PHP event: Could not ask cPanel about disk space (open_basedir) - this is not an error (line 418, wp-content/plugins/updraftplus/class-updraftplus.php)
+0009.996 (0) Total entities for the zip file: 3 directories, 39 files (0 skipped as non-modified), 13.8 MB
+0012.126 (0) Creating zip file manifest (backup_2024-12-19-0058_easysurg_9f49740dc102-uploads.zip.list-temp.tmp)
+0012.128 (0) Successfully created zip file manifest (size: 2358)
+0012.311 (0) Created uploads zip (0) - 14143.8 KB in 2.3 s (6079.8 KB/s) (sha1: f80ad7d7f250ebc37086632114c223ed2e2648a7, sha256: 4b32ea24625a296d400bbaaac773f41ba8dbabadd3a3537cbaab29a33eecf396)
+0012.315 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0012.316 (0) No remote despatch: user chose no remote backup service
+0012.317 (0) Recording as successfully uploaded: backup_2024-12-19-0058_easysurg_9f49740dc102-uploads.zip
+0012.319 (0) Deleting zip manifest (backup_2024-12-19-0058_easysurg_9f49740dc102-uploads.zip.list.tmp)
+0012.320 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0012.322 (0) Number of backup sets in history: 1; groups (db): 1
+0012.323 (0) Examining (for databases) backup set with group_id=0, nonce=d1a6f5c48b34, datestamp=1734569646 (Dec 19 2024 00:54:06)
+0012.323 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0012.324 (0) Number of backup sets in history: 1; groups (files): 1
+0012.324 (0) Examining (for files) backup set with nonce=d1a6f5c48b34, datestamp=1734569646 (Dec 19 2024 00:54:06)
+0012.324 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0012.325 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0012.329 (0) No backup of mu-plugins: excluded by user's options
+0012.330 (0) Beginning backup of other directories found in the content directory (index: 0)
+0012.331 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0012.332 (0) Looking for candidates to backup in: /home/vol14_4/ezyro.com/ezyro_37904914/htdocs/wp-content
+0012.332 (0) finding files: index.php: adding to list (1)
+0012.333 (0) finding files: plugins: skipping: this is the plugins directory
+0012.334 (0) finding files: themes: skipping: this is the themes directory
+0012.334 (0) finding files: uploads: skipping: this is the uploads directory
+0012.335 (0) finding files: upgrade: skipping: excluded by options
+0012.335 (0) finding files: updraft: skipping: this is the updraft directory
+0012.338 (0) PHP event: Could not ask cPanel about disk space (open_basedir) - this is not an error (line 418, wp-content/plugins/updraftplus/class-updraftplus.php)
+0012.341 (0) Total entities for the zip file: 0 directories, 1 files (0 skipped as non-modified), 0 MB
+0012.344 (0) Creating zip file manifest (backup_2024-12-19-0058_easysurg_9f49740dc102-others.zip.list-temp.tmp)
+0012.345 (0) Successfully created zip file manifest (size: 43)
+0012.349 (0) Created others zip (0) - 0.1 KB in 0 s (15.6 KB/s) (sha1: f390e180a6f32c244c0e3fc906da7b57edb82f94, sha256: 86243ca0e80cdaef8f2f8cb754463e6b7cba753cb1491f76f83fa0e10fe1d48b)
+0012.352 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0012.353 (0) No remote despatch: user chose no remote backup service
+0012.353 (0) Recording as successfully uploaded: backup_2024-12-19-0058_easysurg_9f49740dc102-others.zip
+0012.355 (0) Deleting zip manifest (backup_2024-12-19-0058_easysurg_9f49740dc102-others.zip.list.tmp)
+0012.356 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0012.357 (0) Number of backup sets in history: 1; groups (db): 1
+0012.358 (0) Examining (for databases) backup set with group_id=0, nonce=d1a6f5c48b34, datestamp=1734569646 (Dec 19 2024 00:54:06)
+0012.358 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0012.358 (0) Number of backup sets in history: 1; groups (files): 1
+0012.359 (0) Examining (for files) backup set with nonce=d1a6f5c48b34, datestamp=1734569646 (Dec 19 2024 00:54:06)
+0012.359 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0012.359 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0012.366 (0) Saving backup status to database (elements: 8)
+0012.368 (0) Beginning creation of database dump (WordPress DB)
+0012.369 (0) Couldn't get the sql_mode value (N;); will not attempt any adjustment
+0012.379 (0) Table wpvs_options: Total expected rows (via COUNT): 302
+0012.380 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0012.446 (0) Table wpvs_options: Rows added in this batch (next record: 482): 298 (uncompressed bytes in this segment=1499251) in 0.07 seconds
+0012.451 (0) Table wpvs_options: finishing file(s) (2, 300.5 KB)
+0012.455 (0) Table wpvs_users: Total expected rows (via COUNT): 1
+0012.455 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0012.457 (0) Table wpvs_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1195) in 0.00 seconds
+0012.461 (0) Table wpvs_users: finishing file(s) (2, 0.6 KB)
+0012.467 (0) Table wpvs_usermeta: Total expected rows (via COUNT): 29
+0012.468 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0012.471 (0) Table wpvs_usermeta: Rows added in this batch (next record: 29): 29 (uncompressed bytes in this segment=6755) in 0.01 seconds
+0012.476 (0) Table wpvs_usermeta: finishing file(s) (2, 2.1 KB)
+0012.481 (0) Table wpvs_actionscheduler_actions: Total expected rows (via COUNT): 5
+0012.482 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0012.484 (0) Table wpvs_actionscheduler_actions: Rows added in this batch (next record: 64): 5 (uncompressed bytes in this segment=3422) in 0.01 seconds
+0012.489 (0) Table wpvs_actionscheduler_actions: finishing file(s) (2, 0.9 KB)
+0012.493 (0) Table wpvs_actionscheduler_claims: Total expected rows (via COUNT): 0
+0012.494 (0) Table wpvs_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=618) in 0.00 seconds
+0012.498 (0) Table wpvs_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0012.501 (0) Table wpvs_actionscheduler_groups: Total expected rows (via COUNT): 2
+0012.502 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0012.503 (0) Table wpvs_actionscheduler_groups: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=691) in 0.00 seconds
+0012.507 (0) Table wpvs_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0012.510 (0) Table wpvs_actionscheduler_logs: Total expected rows (via COUNT): 5
+0012.511 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0012.512 (0) Table wpvs_actionscheduler_logs: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=1187) in 0.00 seconds
+0012.515 (0) Table wpvs_actionscheduler_logs: finishing file(s) (2, 0.5 KB)
+0012.519 (0) Table wpvs_commentmeta: Total expected rows (via COUNT): 0
+0012.521 (0) Table wpvs_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=646) in 0.00 seconds
+0012.525 (0) Table wpvs_commentmeta: finishing file(s) (2, 0.4 KB)
+0012.528 (0) Table wpvs_comments: Total expected rows (via COUNT): 1
+0012.529 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0012.531 (0) Table wpvs_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1899) in 0.00 seconds
+0012.534 (0) Table wpvs_comments: finishing file(s) (2, 0.7 KB)
+0012.538 (0) Table wpvs_links: Total expected rows (via COUNT): 0
+0012.540 (0) Table wpvs_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1039) in 0.00 seconds
+0012.544 (0) Table wpvs_links: finishing file(s) (2, 0.5 KB)
+0012.549 (0) Table wpvs_postmeta: Total expected rows (via COUNT): 53
+0012.549 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0012.552 (0) Table wpvs_postmeta: Rows added in this batch (next record: 55): 53 (uncompressed bytes in this segment=17264) in 0.01 seconds
+0012.556 (0) Table wpvs_postmeta: finishing file(s) (2, 3.2 KB)
+0012.562 (0) Table wpvs_posts: Total expected rows (via COUNT): 56
+0012.562 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0012.579 (0) Table wpvs_posts: Rows added in this batch (next record: 58): 56 (uncompressed bytes in this segment=571440) in 0.02 seconds
+0012.583 (0) Table wpvs_posts: finishing file(s) (2, 29.2 KB)
+0012.586 (0) Table wpvs_term_relationships: Total expected rows (approximate): 7
+0012.588 (0) Table wpvs_term_relationships: Rows added in this batch (next record: 100000): 7 (uncompressed bytes in this segment=787) in 0.00 seconds
+0012.592 (0) Table wpvs_term_relationships: finishing file(s) (2, 0.4 KB)
+0012.597 (0) Table wpvs_term_taxonomy: Total expected rows (via COUNT): 4
+0012.598 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0012.600 (0) Table wpvs_term_taxonomy: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=991) in 0.01 seconds
+0012.604 (0) Table wpvs_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0012.609 (0) Table wpvs_termmeta: Total expected rows (via COUNT): 0
+0012.610 (0) Table wpvs_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=619) in 0.00 seconds
+0012.614 (0) Table wpvs_termmeta: finishing file(s) (2, 0.4 KB)
+0012.618 (0) Table wpvs_terms: Total expected rows (via COUNT): 4
+0012.618 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0012.621 (0) Table wpvs_terms: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=793) in 0.00 seconds
+0012.624 (0) Table wpvs_terms: finishing file(s) (2, 0.5 KB)
+0012.628 (0) Table wpvs_rank_math_404_logs: Total expected rows (via COUNT): 0
+0012.629 (0) Table wpvs_rank_math_404_logs: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=747) in 0.00 seconds
+0012.633 (0) Table wpvs_rank_math_404_logs: finishing file(s) (2, 0.4 KB)
+0012.636 (0) Table wpvs_rank_math_analytics_gsc: Total expected rows (via COUNT): 0
+0012.637 (0) Table wpvs_rank_math_analytics_gsc: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=929) in 0.00 seconds
+0012.641 (0) Table wpvs_rank_math_analytics_gsc: finishing file(s) (2, 0.5 KB)
+0012.646 (0) Table wpvs_rank_math_analytics_inspections: Total expected rows (via COUNT): 0
+0012.647 (0) Table wpvs_rank_math_analytics_inspections: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1510) in 0.00 seconds
+0012.651 (0) Table wpvs_rank_math_analytics_inspections: finishing file(s) (2, 0.6 KB)
+0012.655 (0) Table wpvs_rank_math_analytics_objects: Total expected rows (via COUNT): 0
+0012.655 (0) Table wpvs_rank_math_analytics_objects: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1305) in 0.00 seconds
+0012.660 (0) Table wpvs_rank_math_analytics_objects: finishing file(s) (2, 0.6 KB)
+0012.664 (0) Table wpvs_rank_math_internal_links: Total expected rows (via COUNT): 0
+0012.665 (0) Table wpvs_rank_math_internal_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=748) in 0.00 seconds
+0012.669 (0) Table wpvs_rank_math_internal_links: finishing file(s) (2, 0.4 KB)
+0012.673 (0) Table wpvs_rank_math_internal_meta: Total expected rows (via COUNT): 0
+0012.675 (0) Table wpvs_rank_math_internal_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=659) in 0.00 seconds
+0012.678 (0) Table wpvs_rank_math_internal_meta: finishing file(s) (2, 0.3 KB)
+0012.682 (0) Table wpvs_rank_math_redirections: Total expected rows (via COUNT): 0
+0012.683 (0) Table wpvs_rank_math_redirections: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=955) in 0.00 seconds
+0012.687 (0) Table wpvs_rank_math_redirections: finishing file(s) (2, 0.5 KB)
+0012.691 (0) Table wpvs_rank_math_redirections_cache: Total expected rows (via COUNT): 0
+0012.692 (0) Table wpvs_rank_math_redirections_cache: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=852) in 0.00 seconds
+0012.695 (0) Table wpvs_rank_math_redirections_cache: finishing file(s) (2, 0.4 KB)
+0012.695 (0) PHP event: code E_WARNING: filemtime(): stat failed for /home/vol14_4/ezyro.com/ezyro_37904914/htdocs/wp-content/updraft/backup_2024-12-19-0058_easysurg_9f49740dc102-db.gz (line 1925, wp-content/plugins/updraftplus/backup.php)
+0012.697 (0) backup_2024-12-19-0058_easysurg_9f49740dc102-db-table-wpvs_options.table.tmpr483.gz (1/24/fopen): adding to final database dump
+0012.700 (0) backup_2024-12-19-0058_easysurg_9f49740dc102-db-table-wpvs_options.table.gz (2/24/fopen): adding to final database dump
+0012.700 (0) backup_2024-12-19-0058_easysurg_9f49740dc102-db-table-wpvs_users.table.tmpr2.gz (3/24/fopen): adding to final database dump
+0012.701 (0) backup_2024-12-19-0058_easysurg_9f49740dc102-db-table-wpvs_users.table.gz (4/24/fopen): adding to final database dump
+0012.701 (0) backup_2024-12-19-0058_easysurg_9f49740dc102-db-table-wpvs_usermeta.table.tmpr30.gz (5/24/fopen): adding to final database dump
+0012.702 (0) backup_2024-12-19-0058_easysurg_9f49740dc102-db-table-wpvs_usermeta.table.gz (6/24/fopen): adding to final database dump
+0012.703 (0) backup_2024-12-19-0058_easysurg_9f49740dc102-db-table-wpvs_actionscheduler_actions.table.tmpr65.gz (7/24/fopen): adding to final database dump
+0012.703 (0) backup_2024-12-19-0058_easysurg_9f49740dc102-db-table-wpvs_actionscheduler_actions.table.gz (8/24/fopen): adding to final database dump
+0012.704 (0) backup_2024-12-19-0058_easysurg_9f49740dc102-db-table-wpvs_actionscheduler_claims.table.tmpr0.gz (9/24/fopen): adding to final database dump
+0012.704 (0) backup_2024-12-19-0058_easysurg_9f49740dc102-db-table-wpvs_actionscheduler_claims.table.gz (10/24/fopen): adding to final database dump
+0012.705 (0) backup_2024-12-19-0058_easysurg_9f49740dc102-db-table-wpvs_actionscheduler_groups.table.tmpr3.gz (11/24/fopen): adding to final database dump
+0012.706 (0) backup_2024-12-19-0058_easysurg_9f49740dc102-db-table-wpvs_actionscheduler_groups.table.gz (12/24/fopen): adding to final database dump
+0012.706 (0) backup_2024-12-19-0058_easysurg_9f49740dc102-db-table-wpvs_actionscheduler_logs.table.tmpr6.gz (13/24/fopen): adding to final database dump
+0012.707 (0) backup_2024-12-19-0058_easysurg_9f49740dc102-db-table-wpvs_actionscheduler_logs.table.gz (14/24/fopen): adding to final database dump
+0012.707 (0) backup_2024-12-19-0058_easysurg_9f49740dc102-db-table-wpvs_commentmeta.table.tmpr0.gz (15/24/fopen): adding to final database dump
+0012.708 (0) backup_2024-12-19-0058_easysurg_9f49740dc102-db-table-wpvs_commentmeta.table.gz (16/24/fopen): adding to final database dump
+0012.709 (0) backup_2024-12-19-0058_easysurg_9f49740dc102-db-table-wpvs_comments.table.tmpr2.gz (17/24/fopen): adding to final database dump
+0012.709 (0) backup_2024-12-19-0058_easysurg_9f49740dc102-db-table-wpvs_comments.table.gz (18/24/fopen): adding to final database dump
+0012.710 (0) backup_2024-12-19-0058_easysurg_9f49740dc102-db-table-wpvs_links.table.tmpr0.gz (19/24/fopen): adding to final database dump
+0012.711 (0) backup_2024-12-19-0058_easysurg_9f49740dc102-db-table-wpvs_links.table.gz (20/24/fopen): adding to final database dump
+0012.711 (0) backup_2024-12-19-0058_easysurg_9f49740dc102-db-table-wpvs_postmeta.table.tmpr56.gz (21/24/fopen): adding to final database dump
+0012.712 (0) backup_2024-12-19-0058_easysurg_9f49740dc102-db-table-wpvs_postmeta.table.gz (22/24/fopen): adding to final database dump
+0012.712 (0) backup_2024-12-19-0058_easysurg_9f49740dc102-db-table-wpvs_posts.table.tmpr59.gz (23/24/fopen): adding to final database dump
+0012.713 (0) backup_2024-12-19-0058_easysurg_9f49740dc102-db-table-wpvs_posts.table.gz (24/24/fopen): adding to final database dump
+0012.714 (0) backup_2024-12-19-0058_easysurg_9f49740dc102-db-table-wpvs_term_relationships.table.tmpr100001.gz (25/24/fopen): adding to final database dump
+0012.714 (0) backup_2024-12-19-0058_easysurg_9f49740dc102-db-table-wpvs_term_relationships.table.gz (26/24/fopen): adding to final database dump
+0012.715 (0) backup_2024-12-19-0058_easysurg_9f49740dc102-db-table-wpvs_term_taxonomy.table.tmpr5.gz (27/24/fopen): adding to final database dump
+0012.716 (0) backup_2024-12-19-0058_easysurg_9f49740dc102-db-table-wpvs_term_taxonomy.table.gz (28/24/fopen): adding to final database dump
+0012.716 (0) backup_2024-12-19-0058_easysurg_9f49740dc102-db-table-wpvs_termmeta.table.tmpr0.gz (29/24/fopen): adding to final database dump
+0012.717 (0) backup_2024-12-19-0058_easysurg_9f49740dc102-db-table-wpvs_termmeta.table.gz (30/24/fopen): adding to final database dump
+0012.717 (0) backup_2024-12-19-0058_easysurg_9f49740dc102-db-table-wpvs_terms.table.tmpr5.gz (31/24/fopen): adding to final database dump
+0012.718 (0) backup_2024-12-19-0058_easysurg_9f49740dc102-db-table-wpvs_terms.table.gz (32/24/fopen): adding to final database dump
+0012.719 (0) backup_2024-12-19-0058_easysurg_9f49740dc102-db-table-wpvs_rank_math_404_logs.table.tmpr0.gz (33/24/fopen): adding to final database dump
+0012.719 (0) backup_2024-12-19-0058_easysurg_9f49740dc102-db-table-wpvs_rank_math_404_logs.table.gz (34/24/fopen): adding to final database dump
+0012.720 (0) backup_2024-12-19-0058_easysurg_9f49740dc102-db-table-wpvs_rank_math_analytics_gsc.table.tmpr0.gz (35/24/fopen): adding to final database dump
+0012.720 (0) backup_2024-12-19-0058_easysurg_9f49740dc102-db-table-wpvs_rank_math_analytics_gsc.table.gz (36/24/fopen): adding to final database dump
+0012.721 (0) backup_2024-12-19-0058_easysurg_9f49740dc102-db-table-wpvs_rank_math_analytics_inspections.table.tmpr0.gz (37/24/fopen): adding to final database dump
+0012.722 (0) backup_2024-12-19-0058_easysurg_9f49740dc102-db-table-wpvs_rank_math_analytics_inspections.table.gz (38/24/fopen): adding to final database dump
+0012.722 (0) backup_2024-12-19-0058_easysurg_9f49740dc102-db-table-wpvs_rank_math_analytics_objects.table.tmpr0.gz (39/24/fopen): adding to final database dump
+0012.723 (0) backup_2024-12-19-0058_easysurg_9f49740dc102-db-table-wpvs_rank_math_analytics_objects.table.gz (40/24/fopen): adding to final database dump
+0012.723 (0) backup_2024-12-19-0058_easysurg_9f49740dc102-db-table-wpvs_rank_math_internal_links.table.tmpr0.gz (41/24/fopen): adding to final database dump
+0012.724 (0) backup_2024-12-19-0058_easysurg_9f49740dc102-db-table-wpvs_rank_math_internal_links.table.gz (42/24/fopen): adding to final database dump
+0012.724 (0) backup_2024-12-19-0058_easysurg_9f49740dc102-db-table-wpvs_rank_math_internal_meta.table.tmpr0.gz (43/24/fopen): adding to final database dump
+0012.725 (0) backup_2024-12-19-0058_easysurg_9f49740dc102-db-table-wpvs_rank_math_internal_meta.table.gz (44/24/fopen): adding to final database dump
+0012.726 (0) backup_2024-12-19-0058_easysurg_9f49740dc102-db-table-wpvs_rank_math_redirections.table.tmpr0.gz (45/24/fopen): adding to final database dump
+0012.726 (0) backup_2024-12-19-0058_easysurg_9f49740dc102-db-table-wpvs_rank_math_redirections.table.gz (46/24/fopen): adding to final database dump
+0012.727 (0) backup_2024-12-19-0058_easysurg_9f49740dc102-db-table-wpvs_rank_math_redirections_cache.table.tmpr0.gz (47/24/fopen): adding to final database dump
+0012.728 (0) backup_2024-12-19-0058_easysurg_9f49740dc102-db-table-wpvs_rank_math_redirections_cache.table.gz (48/24/fopen): adding to final database dump
+0012.732 (0) backup_2024-12-19-0058_easysurg_9f49740dc102-db.gz: finished writing out complete database file (344.9 KB)
+0012.744 (0) Total database tables backed up: 24 (backup_2024-12-19-0058_easysurg_9f49740dc102-db.gz, size: 353286, sha1: 4f09da0c8d985479d4d877ff9f68a73c9b717c18, sha256: 74fddd7349103753a6bca54abedf42fcfc7ba21baac7ecb7d9c98d482e121090)
+0012.749 (0) backup_2024-12-19-0058_easysurg_9f49740dc102-plugins.zip: plugins: This file has already been successfully processed
+0012.750 (0) backup_2024-12-19-0058_easysurg_9f49740dc102-themes.zip: themes: This file has already been successfully processed
+0012.750 (0) backup_2024-12-19-0058_easysurg_9f49740dc102-uploads.zip: uploads: This file has already been successfully processed
+0012.751 (0) backup_2024-12-19-0058_easysurg_9f49740dc102-others.zip: others: This file has already been successfully processed
+0012.752 (0) backup_2024-12-19-0058_easysurg_9f49740dc102-db.gz: db: This file has not yet been successfully uploaded: will queue
+0012.752 (0) Saving backup history. Total backup size: 42.5 MB
+0012.754 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0012.757 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0012.758 (0) No remote despatch: user chose no remote backup service
+0012.758 (0) Recording as successfully uploaded: backup_2024-12-19-0058_easysurg_9f49740dc102-db.gz
+0012.762 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0012.763 (0) Number of backup sets in history: 2; groups (db): 1
+0012.764 (0) Examining (for databases) backup set with group_id=0, nonce=9f49740dc102, datestamp=1734569899 (Dec 19 2024 00:58:19)
+0012.764 (0) This backup set is the backup set just made, so will not be deleted.
+0012.764 (0) Examining (for databases) backup set with group_id=0, nonce=d1a6f5c48b34, datestamp=1734569646 (Dec 19 2024 00:54:06)
+0012.764 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0012.764 (0) Number of backup sets in history: 2; groups (files): 1
+0012.765 (0) Examining (for files) backup set with nonce=9f49740dc102, datestamp=1734569899 (Dec 19 2024 00:58:19)
+0012.765 (0) This backup set is the backup set just made, so will not be deleted.
+0012.766 (0) This backup set is the backup set just made, so will not be deleted.
+0012.766 (0) This backup set is the backup set just made, so will not be deleted.
+0012.766 (0) This backup set is the backup set just made, so will not be deleted.
+0012.766 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0012.766 (0) Examining (for files) backup set with nonce=d1a6f5c48b34, datestamp=1734569646 (Dec 19 2024 00:54:06)
+0012.767 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0012.767 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0012.769 (0) Resume backup (9f49740dc102, 0): finish run
+0012.771 (0) Decremented the semaphore (fd) by 1
+0012.772 (0) Semaphore (fd) unlocked
+0012.772 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0012.775 (0) No email will/can be sent - the user has not configured an email address.
+0012.775 (0) The backup succeeded and is now complete
